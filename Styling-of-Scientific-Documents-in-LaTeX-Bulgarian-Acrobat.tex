@@ -1,5 +1,8 @@
 \documentclass{book}
 
+\usepackage[english, bulgarian]{babel}
+\usepackage[pdftex, bookmarks, linktocpage]{hyperref}
+
 \title{Оформление на научни документи с LaTeX}
 \author{Тодор Балабанов, Красимира Стоянова-Чокова}
 \date{\today}
@@ -11,31 +14,41 @@
 \frontmatter
 
 \chapter{Авторски права}
+\input{chapters-bg/copyrights}
 
 \tableofcontents
 
 \listoffigures
+
 \listoftables
 
 \mainmatter
 
 \part{Част I}
+
 \chapter{Глава 1}
+
 \chapter{Глава 2}
 
 \part{Част II}
+
 \chapter{Глава 3}
+
 \chapter{Глава 4}
 
 \part{Част III}
+
 \chapter{Глава 5}
+
 \chapter{Глава 6}
 
 \appendix
+
 \chapter{Приложение 1}
 
 \backmatter
 
 \chapter{Библиография}
+\input{chapters-bg/references}
 
 \end{document}
