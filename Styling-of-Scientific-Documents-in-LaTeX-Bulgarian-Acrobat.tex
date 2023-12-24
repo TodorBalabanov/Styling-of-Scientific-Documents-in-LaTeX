@@ -1,7 +1,12 @@
 \documentclass{book}
 
 \usepackage[english, bulgarian]{babel}
+\selectlanguage{bulgarian}
+
 \usepackage[pdftex, bookmarks, linktocpage]{hyperref}
+
+\usepackage[pdftex]{graphicx}
+\graphicspath{{images/}}
 
 \title{Оформление на научни документи с LaTeX}
 \author{Тодор Балабанов, Красимира Стоянова-Чокова}
@@ -14,10 +19,8 @@
 \frontmatter
 
 \tableofcontents
-
 \listoffigures
-
-\listoftables
+%\listoftables
 
 \mainmatter
 
@@ -27,7 +30,7 @@
 \part{Базови познания}
 
 \chapter{Първи стъпки}
-\input{chapters-bg/chapter01}
+\input{chapters-bg/chapter-0001}
 
 \chapter{Глава 2}
 
