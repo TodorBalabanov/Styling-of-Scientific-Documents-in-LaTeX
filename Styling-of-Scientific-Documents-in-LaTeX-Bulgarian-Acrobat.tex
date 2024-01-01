@@ -8,6 +8,14 @@
 \usepackage[pdftex]{graphicx}
 \graphicspath{{images/}}
 
+\usepackage{xcolor}
+\definecolor{lightgray}{gray}{0.95}
+
+\usepackage{listings}
+\lstset{backgroundcolor=\color{lightgray}}
+\renewcommand{\lstlistingname}{Листинг}
+\renewcommand{\lstlistlistingname}{Списък на листингите}
+
 \title{Оформление на научни документи с LaTeX}
 \author{Тодор Балабанов, Красимира Стоянова-Чокова}
 \date{\today}
@@ -20,6 +28,7 @@
 
 \tableofcontents
 \listoffigures
+\lstlistoflistings
 %\listoftables
 
 \mainmatter
@@ -32,7 +41,8 @@
 \chapter{Първи стъпки}
 \input{chapters-bg/chapter-0001}
 
-\chapter{Глава 2}
+\chapter{Форматиране на текст}
+\input{chapters-bg/chapter-0002}
 
 \part{Част II}
 
